@@ -6,6 +6,26 @@ body {
     background-color: #8a8a8a;
 }
 
+/* 1. Mobile Devices (Extra Small) */
+@media (max-width: 576px) {
+  /* Styles for phones */
+}
+
+/* 2. Tablets (Small to Medium) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Styles for portrait tablets */
+}
+
+/* 3. Laptops & Small Desktops (Large) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for landscape tablets and laptops */
+}
+
+/* 4. Large Screens (Extra Large) */
+@media (min-width: 1025px) {
+  /* Styles for standard desktop monitors */
+}
+
 a {
     text-decoration: none;
     color: inherit;
