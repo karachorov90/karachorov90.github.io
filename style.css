@@ -82,6 +82,24 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
+        /* The container holding all the images */
+.image-row {
+    display: flex;            /* Toggles flexbox layout */
+    justify-content: center;  /* Centers the images horizontally (change to space-between if preferred) */
+    gap: 15px;                /* Adds neat spacing between each picture */
+    padding: 20px;            /* Adds inner spacing around the row */
+    width: 100%;              /* Ensures it spans across the page width */
+    box-sizing: border-box;
+}
+
+        /* Styling for individual images to keep them small and uniform */
+.image-row img {
+    width: 150px;             /* Sets a specific small width for all pictures */
+    height: 150px;            /* Sets a specific small height */
+    object-fit: cover;        /* Ensures the pictures crop cleanly without stretching */
+    border-radius: 8px;       /* Optional: Gives soft rounded corners to the images */
+}
+
 .card-body {
     padding: 25px;
 }
