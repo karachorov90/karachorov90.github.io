@@ -84,12 +84,9 @@ nav ul li a:hover {
 
         /* The container holding all the images */
 .image-row {
-    display: flex;            /* Toggles flexbox layout */
-    justify-content: center;  /* Centers the images horizontally (change to space-between if preferred) */
     gap: 15px;                /* Adds neat spacing between each picture */
     padding: 20px;            /* Adds inner spacing around the row */
     width: 10%;              /* Ensures it spans across the page width */
-    box-sizing: border-box;
 }
 
 .card-body {
