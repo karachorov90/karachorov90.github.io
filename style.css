@@ -243,7 +243,7 @@ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 /* Image Placeholder styling */
 .article-image {
 width: 100%;
-height: 200px;
+height: 500px;
 object-fit: cover;
 background-color: #cbd5e1;
 }
