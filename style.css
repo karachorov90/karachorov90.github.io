@@ -220,6 +220,7 @@ footer {
  /* Responsive Article Grid */
 .articles-grid {
 display: grid;
+align-items: center;
 grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 gap: 2rem;
 }
