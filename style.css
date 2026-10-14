@@ -220,7 +220,7 @@ footer {
  /* Responsive Article Grid */
 .articles-grid {
 display: grid;
-grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 gap: 2rem;
 }
 
@@ -243,7 +243,7 @@ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 /* Image Placeholder styling */
 .article-image {
 width: 100%;
-height: 300px;
+height: 200px;
 object-fit: fill;
 background-color: #cbd5e1;
 }
