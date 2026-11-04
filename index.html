@@ -3,48 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AIR</title>
+    <title>AI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="navbar">
-        <div class="logo">AIRSpace</div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
+      <header>
+        <h1>AI <span>ART</span></h1>
+        <p>AI Generated Pictures</p>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Airspace</h1>
-            <p>Awsome Plane Pictures</p>
-                <a class="btn btn-success" href="https://www.google.com" target="_blank">Follow Me</a>
-            </div>
-        </div>
-    </section>
+    <main class="gallery-container">
+        <div class="gallery-grid">
+            
+            <article class="gallery-item">
+                <img src="pictures/photo.jpg" alt="Concrete Monolith Architecture">
+                <div class="gallery-item-overlay">
+                    <h3>Concrete Monolith</h3>
+                    <p>Architecture</p>
+                </div>
+            </article>
 
-    <section class="features">
-        <div class="feature-card">
-            <h3>AIRBUS</h3>
-            <a class="btn btn-success" href="https://www.airbus.com/en" target="_blank">Official Site</a>
-        </div>
-        <div class="feature-card">
-            <h3>BOEING</h3>
-            <a class="btn btn-success" href="https://www.boeing.com" target="_blank">Official Site</a>
-        </div>
-        <div class="feature-card">
-            <h3>EMBRAER</h3>
-            <a class="btn btn-success" href="https://embraer.com" target="_blank">Official Site</a>
-        </div>
-    </section>
+            <article class="gallery-item">
+                <img src="pictures/photo.jpg" alt="Light & Shadow Patterns">
+                <div class="gallery-item-overlay">
+                    <h3>Light & Shadow</h3>
+                    <p>Abstract</p>
+                </div>
+            </article>
 
-    <footer>
-        <p>&copy; 2026 AIRSpace</p>
-    </footer>
+            <article class="gallery-item">
+                <img src="pictures/photo.jpg" alt="Urban Lines Exterior">
+                <div class="gallery-item-overlay">
+                    <h3>Lines of the City</h3>
+                    <p>Urban</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="pictures/photo.jpg" alt="Ocean Horizon Nature">
+                <div class="gallery-item-overlay">
+                    <h3>Silent Horizon</h3>
+                    <p>Nature</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="pictures/photo.jpg" alt="Brutalist Geometry Forms">
+                <div class="gallery-item-overlay">
+                    <h3>Brutalist Forms</h3>
+                    <p>Structures</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="pictures/photo.jpg" alt="Minimalist Interior Space">
+                <div class="gallery-item-overlay">
+                    <h3>Nordic Simplicity</h3>
+                    <p>Interior</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+
+    <nav class="pagination-nav" aria-label="Gallery Pagination">
+        <div class="btn-group">
+            <a href="index.html" class="pagination-btn Previous">Previous &larr;</a>
+            <a href="gallery.html" class="pagination-btn next">Next &rarr;</a>
+        </div>
+    </nav>
 
 </body>
 </html>
